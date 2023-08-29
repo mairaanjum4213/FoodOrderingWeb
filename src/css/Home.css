@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left{
+    align-self: center;
+    justify-self: center;
+}
+
+.text-content{
+    text-align: center;
+}
+.menu{
+    background-color: #ee0847;
+    padding:15px;
+    border:none;
+    color:white;
+}
+
+.pizza{
+    width:40vw;
+}
+
+
+@media  only screen and (max-width:768px) {
+    .container{
+        flex-direction: column;
+        margin-top:15px;
+    }
+
+    .pizza{
+        width:80vw;
+    }
+}

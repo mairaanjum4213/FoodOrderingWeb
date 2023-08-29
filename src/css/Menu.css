@@ -1,0 +1,113 @@
+.menu-list{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:1rem;
+   
+}
+
+.title{
+    text-align:center;
+}
+
+.menu-list-wrapper{
+    margin :3rem 0;
+}
+
+
+.item-container{
+    padding: .5rem 1rem;
+    border-radius:50px;
+    border:1px solid #dfdfdf;
+    background-color: #fff;
+    text-align: center !important;
+    text-transform: uppercase;
+    cursor:pointer;
+    align-self: center;
+}
+
+.item-container.active{
+    background-color: #ee0847;
+    border: none;
+    color:#fff;  
+}
+
+
+.food-wrapper{
+    overflow: hidden;
+}
+
+.dish-container{
+    display:flex;
+    justify-content: center;
+    gap:2rem;
+    min-width: 300px;
+    min-height:350px;
+  
+}
+
+.dish-img{
+   width: 210px;
+   height: 150px;
+    pointer-events: none;
+}
+
+
+.img-container{
+    background-color: #fff;
+    padding:1rem;
+    margin-bottom: 10rem;
+    border-radius:25px;
+    box-shadow: -2px -1px 17px -11px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dishname{
+    text-align: center;
+    font-weight: bold;
+}
+
+.dishdes{
+    text-align: center;
+    color:#777;
+
+}
+
+.btn-add{
+   
+        background-color: #ee0847;
+        padding:15px;
+        border:none;
+        color:white;
+        cursor:pointer;
+    
+}
+
+@media only screen and (max-width:768px){
+    .menu-list{
+        flex-direction: column;
+    }
+
+    
+.item-container{
+    padding: 1rem 1.5rem;
+    border-radius:50px;
+    border:1px solid #dfdfdf;
+    background-color: #fff;
+    text-align: center !important;
+    text-transform: uppercase;
+    cursor:pointer;
+    align-self: center;
+    width:100%;
+}
+
+}

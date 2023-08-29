@@ -1,0 +1,622 @@
+{
+    "pizza": [
+        {
+            "id": 0,
+            "name": "Margherita",
+            "description": "",
+            "ingredients": ["tomato sauce", "mozzarella"],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 17.0,
+            "image": "https://img.freepik.com/free-photo/meat-chicken-mushrooms-pizza-isolated-white-background-top-view-photo-menu_639032-224.jpg?w=740&t=st=1693048662~exp=1693049262~hmac=12381e39d7998f59612767ae483c3d6f093c62cacd54eb35a85ea6994717c01e"
+        },
+        {
+            "id": 1,
+            "name": "Pepperoni",
+            "description": "",
+            "ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 20.0,
+            "image": "https://img.freepik.com/premium-photo/ketchup-wooden-bowl-isolated-white-background_88281-3597.jpg?w=740"
+        },
+        {
+            "id": 2,
+            "name": "Rome",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "ham",
+                "mushrooms",
+                "beef cubes"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 25.75,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 3,
+            "name": "American Spicy",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "pepperoni",
+                "tomatoes",
+                "green pepper",
+                "red onion",
+                "jalapenos",
+                "Samourai sauce"
+            ],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 30.25,
+            "image": "https://img.freepik.com/free-photo/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-295.jpg?w=740&t=st=1693048721~exp=1693049321~hmac=6e892f975a2673cbd78415b010552557dbbb47e7f3528ce27662129e6dee3f1a"
+        },
+        {
+            "id": 4,
+            "name": "Quattro Stagioni",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "ham",
+                "pepperoni",
+                "mushrooms",
+                "green pepper"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/premium-photo/vegetarian-pizza-with-mushrooms-pickles-tomatoes-bell-peppers-onions-olives-greens-melted-moz_157927-19572.jpg?w=740"
+        },
+        {
+            "id": 5,
+            "name": "Pork & Feta",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "feta cheese",
+                "ham",
+                "pork cubes",
+                "red onion"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/premium-photo/isolated-pizza-with-mushrooms-olives_219193-8149.jpg?w=740"
+        },
+        {
+            "id": 6,
+            "name": "Quattro Formaggi",
+            "description": "",
+            "ingredients": [
+                "mozzarella",
+                "cheddar cheese",
+                "emmentaler",
+                "blue cheese",
+                "oregano"
+            ],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 35.15,
+            "image": "https://img.freepik.com/premium-photo/isolated-pizza-with-mushrooms-olives_219193-8149.jpg?w=740"
+        },
+        {
+            "id": 7,
+            "name": "Carnivora",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "chicken breast",
+                "beef cubes",
+                "pepperoni",
+                "bacon"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/pizza-with-cheese-tomato-isolated-white-background-pizza-margarita-top-view-photo-menu_639032-289.jpg?w=740&t=st=1693048837~exp=1693049437~hmac=9a26fcf3b0645176fde597f3120bc9b105ae957dae77c97ddca7b3ba3e0b72a7"
+        },
+        {
+            "id": 8,
+            "name": "Louisiana Chicken",
+            "description": "",
+            "ingredients": [
+                "marinated chicken",
+                "TABASCO spicy sauce",
+                "red pepper sauce",
+                "blue cheese",
+                "green pepper",
+                "red onion"
+            ],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 20.0,
+            "image": "https://img.freepik.com/free-photo/vegetarian-pizza-with-zucchini-tomato-peppers-mushrooms-isolated-white-background_123827-21604.jpg?w=740&t=st=1693048858~exp=1693049458~hmac=8c394c1f2556771646c84d173d2e6674f3db7b0d1acc766865f63c5f7d97b485"
+        },
+        {
+            "id": 9,
+            "name": "Honey Mustard Chicken",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "marinated chicken in Honey Mustard sauce",
+                "cheddar cheese",
+                "red onion"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 19.8,
+            "image": "https://img.freepik.com/free-photo/pepperoni-pizza_74190-2517.jpg?w=740&t=st=1693048869~exp=1693049469~hmac=51c4cf45bf8d0b3d91aad8dfba1ab3ede816fc435288a1cfc4ad2949485258f9"
+        },
+        {
+            "id": 10,
+            "name": "Hawaiian",
+            "description": "",
+            "ingredients": [
+                "mozzarella",
+                "sweet chilli sauce",
+                "pepperoni",
+                "pineapple",
+                "jalapenos",
+                "red onion"
+            ],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/pepperoni-pizza_74190-2517.jpg?w=740&t=st=1693048869~exp=1693049469~hmac=51c4cf45bf8d0b3d91aad8dfba1ab3ede816fc435288a1cfc4ad2949485258f9"
+        },
+        {
+            "id": 11,
+            "name": "Classic",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "ham",
+                "mushrooms",
+                "olives"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-295.jpg?w=740&t=st=1693048721~exp=1693049321~hmac=6e892f975a2673cbd78415b010552557dbbb47e7f3528ce27662129e6dee3f1a"
+        },
+        {
+            "id": 12,
+            "name": "Pastrami",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "pastrami",
+                "salty cheese",
+                "baked green pepper",
+                "red onion"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 13,
+            "name": "Hot Pastrami",
+            "description": "",
+            "ingredients": [
+                "Honey Mustard sauce",
+                "mozzarella",
+                "pastrami",
+                "sausages",
+                "chilli pepper",
+                "red onion"
+            ],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 14,
+            "name": "Country",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "bacon",
+                "corn",
+                "onion",
+                "mushrooms"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 15,
+            "name": "Hot Cheese",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "cheddar cheese",
+                "salty cheese",
+                "tomatoes",
+                "chilli pepper",
+                "oregano"
+            ],
+            "spicy": true,
+            "vegetarian": true,
+            "price": 27.25,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 16,
+            "name": "Ocean",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "tuna",
+                "corn",
+                "onion",
+                "olives"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 30,
+            "image": "https://img.freepik.com/free-photo/delicious-italian-pizza-with-tomato-olives-pepperoni-mushrooms-top-view-isolated-white-background-still-life-copy-space_639032-299.jpg?w=740&t=st=1693048704~exp=1693049304~hmac=497dd56e4b77d0f06987fbb67399178f645416c73e7f736cbf38f3f296a3a46a"
+        },
+        {
+            "id": 17,
+            "name": "BBQ",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "BBQ sauce",
+                "onion",
+                "corn",
+                "bacon",
+                "mushrooms",
+                "sausages"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 28.5,
+            "image": "https://img.freepik.com/free-photo/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-295.jpg?w=740&t=st=1693048721~exp=1693049321~hmac=6e892f975a2673cbd78415b010552557dbbb47e7f3528ce27662129e6dee3f1a"
+        },
+        {
+            "id": 18,
+            "name": "Mexicana",
+            "description": "",
+            "ingredients": [
+                "tomato sauce",
+                "mozzarella",
+                "salsa sauce",
+                "pepperoni",
+                "corn",
+                "onion",
+                "jalapenos",
+                "tortilla chips"
+            ],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 28.5,
+            "image": "https://img.freepik.com/premium-photo/vegetarian-pizza-with-mushrooms-pickles-tomatoes-bell-peppers-onions-olives-greens-melted-moz_157927-19572.jpg?w=740"
+        }
+    ],
+    "pasta": [
+        {
+            "id": 0,
+            "name": "Bolognese",
+            "description": "",
+            "ingredients": ["penne", "ragu sauce", "beef cubes", "mozzarella"],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 28.0,
+            "image": "https://img.freepik.com/free-photo/penne-carbonara-pasta-with-salmon_74190-2783.jpg?w=740&t=st=1693044102~exp=1693044702~hmac=3c487ddf1bbd14f528ffbe0f522c822b579749cd92761b0bd74038225a5c4faa"
+        },
+        {
+            "id": 1,
+            "name": "Carbonara",
+            "description": "",
+            "ingredients": [
+                "penne",
+                "white cream and garlic sauce",
+                "bacon",
+                "parmesan"
+            ],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 28.0,
+            "image": "https://img.freepik.com/premium-photo/plate-pasta-with-grilled-scallops-tomatoes-isolated-white-background_917664-19373.jpg?w=740"
+        }
+    ],
+    "salads": [
+        {
+            "id": 0,
+            "name": "Caesar",
+            "description": "",
+            "ingredients": [
+                "chicken breast",
+                "bacon",
+                "parmesan",
+                "cherry tomatoes",
+                "croutons",
+                "lettuce",
+                "beetroot",
+                "sauce of your choice"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 20,
+            "image": "https://img.freepik.com/free-photo/healthy-salad-with-chicken-vegetables_144627-14729.jpg?w=740&t=st=1693046545~exp=1693047145~hmac=2f9cea80e1e1663222e3716b7e2a15793cf71c69773591944cb81f4397ccf876"
+        },
+        {
+            "id": 1,
+            "name": "Greek",
+            "description": "",
+            "ingredients": [
+                "feta cheese",
+                "green olives",
+                "cherry tomatoes",
+                "cucumbers",
+                "red onion",
+                "red pepper",
+                "oregano",
+                "lettuce",
+                "beetroot",
+                "sauce of your choice"
+            ],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 20,
+            "image": "https://img.freepik.com/premium-photo/fresh-greek-salad-plate-with-black-olive-tomato-feta-cheese-cucumber-isolated-white-background_123827-3695.jpg?w=740"
+        },
+        {
+            "id": 2,
+            "name": "Tuna",
+            "description": "",
+            "ingredients": [
+                "tuna",
+                "green olives",
+                "corn",
+                "red pepper",
+                "red onion",
+                "lettuce",
+                "beetroot",
+                "sauce of your choice"
+            ],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 20,
+            "image": "https://img.freepik.com/free-photo/salad-with-tuna-tomatoes-potato-onion_2829-10302.jpg?w=740&t=st=1693046672~exp=1693047272~hmac=b180ca9f94615d8f733e40109f8958ec9a2eab40aae9c7b75cc14e1f991f60fc"
+        }
+    ],
+    "dessert": [
+        {
+            "id": 0,
+            "name": "Brownie",
+            "description": "A delicious cake with chocolate and hazelnuts",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 15,
+            "image": "https://img.freepik.com/premium-photo/delicious-chocolate-cake-slices-isolated-white_185193-9926.jpg?w=740"
+        },
+        {
+            "id": 1,
+            "name": "Chocolate Tortilla",
+            "description": "Tortilla filled with chocolate cream",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 12,
+            "image": "https://img.freepik.com/free-photo/chocolate-roll-cake_74190-5252.jpg?w=740&t=st=1693046814~exp=1693047414~hmac=c768eb856fb76c253c80dea40db4f0c648864ed47393efe0add67f087c3ce3aa"
+        },
+        {
+            "id": 2,
+            "name": "Apple Pie",
+            "description": "Hot pie with apple and cinnamon",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 15,
+            "image": "https://img.freepik.com/premium-photo/apple-pie_1205-1344.jpg?w=740"
+        },
+        {
+            "id": 3,
+            "name": "Cheesecake",
+            "description": "Cheesecake with berries topping",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 15,
+            "image": "https://img.freepik.com/free-photo/delicious-piece-cheese_144627-43344.jpg?w=740&t=st=1693046933~exp=1693047533~hmac=c54b41acc365f17cc5a6b0a02a25bcfe5bb6d4f500a5f8fddbf3c63f859c1710f"
+        }
+    ],
+    "drinks": [
+        {
+            "id": 0,
+            "name": "Pepsi",
+            "description": "Pepsi 330ml",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 5,
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 1,
+            "name": "Fanta",
+            "description": "Fanta 330ml",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 5,
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASBhAQEBMQFRMPEBAQFRIRFg8QEhEQFxIXFhURGBUYHCggGBolGxUVITEjJykrLjIyFyAzODMuQygtLisBCgoKDg0OGhAQGi4lICU3LTcuLS4uNy0tKy0uLS02MC0vLS4tLS0tLi0vLS0tKy0tLS0tKystLy0tLS0tLS0rLf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAcCBQYDAf/EAD0QAAIBAgQDBQQFCwUAAAAAAAABAgMRBAUSIQYTMSJBUWGRcYGhsQcUMkKyFSMkM1JTY3KCwdEWF2KS8f/EABoBAQACAwEAAAAAAAAAAAAAAAAFBgECBAP/xAAyEQEAAQMBBwIDCAIDAAAAAAAAAQIDEQQFEhMhMUFRYbEUcZEGIjKBocHR4SPwJGLx/9oADAMBAAIRAxEAPwC8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADW8Q5r9VyyVbTqs4xUb2u27dTxv3eFRvYdei0s6m9FvOFfY/6SMQpdiFOK9l36s4J19faIWKj7P2I/FVMvPCfSVide8IS8nt8rGPjrviG1WwNPPSqXdcJ8QPGYapJwUHTko2T1J3V7/M7dNqONEzMYwgdpaD4SuKYqzEt6dKOAAAAAAAAAAAAAAAAAAAAAAAAAAAAcz9IUL8P2V/1sHt4JM5NbGbSW2JVjVR8pU/mNCWv7M/QiOnVcoqie7zwOHk6v2Z+jGc9GZqiOeVp/RjScaGIvfeVPr5KRJaCMRUq/wBoKoqrt48T+ztyQV4AAAAAAAAAAAAAAAAAAAAAAAAAAABGzDDxnhZJxTsna/jbYxMZb0VTTVE5c1jMnlJ3XLV/KT+TRzXLE1eEjb1dFPLEvmDyRqpeWh+SUl/cxRp5iexc1lNUcol0OV4dRpN6YqV2m1bddx0004R92ven0TjZ5gAAAAAAAAAAAAAAAAAAAAAAAAAAfJOyuwIs6rk9unzEN92I6vGpK/cYmZbREMabaMRJMQ9YVXGV+59f8mcsYymQmnG6MxOWkxhkGAAAAAAAAAAAAAAAAAAAAAAAAAAaPMM3Sxbha6htfxl3/wCCMv7Qpt3Jpx0SFnRzVRFXlh+WoLrcxG1bfeGfgK56IE+JKWra/oc87Zt55Q6I2VcI8R0r/wDojbFvwTsu42FHOqLpJpvfyOmnatmYc9WhuxOHyGdU411a9m0peFvE1jadreiIJ0Nc0zlvyVRwAAAAAAAAAAAAAAAAAAAAAAAAAK/x8msZUT6qc/xMpuqmYu1RPmVo08RNunHiEGtVbi14nJNUuqmmIlBkrHm6YnJFMMTMJlGTUUjeJw8KoiZSIzZtEy8ZiIWLST5Ub9bK/tsXqnpCp1dZwzNmAAAAAAAAAAAAAAAAAAAAAAAAA5HirB6cWqi6VFv/ADLZ/C3xK1tixu3IuR0n3Tmzb2aNye3s5ySIWUxDBo1bPqMwwziGstvkGE5mYRT6R7b9i6L1sSGzbHFvx4jnKP117h2p8zydyXBXAAAAAAAAAAAAAAAAAAAAAAAAAAQc5wvMy+ce9LVH+Zd3v3XvOTW2ONZqp79vm6NLd4d2Ku3dX1TqUuYWql5tmrcRmB6QDSXa8L4TTgNb61Xf+lbJfN+8teybHDs7/er27K5tC7v3d3tHu3RKuAAAAAAAAAAAAAAAAAAAAAAAAAAHx9BIrXErttrpd/Mo12PvThb7XSMoVSdmeMummMvsJ79wwxMJNM2w8ali5bb8nUrdOXD8KLtpscGjHiFTv54lWfMpJ7vIAAAAAAAAAAAAAAAAAAAAAAAAAEDO8Vy8um++S0R9r2+G79xzay7w7Uz37OjS2uJdiPq4mdLsdPQqdVHdY4rxLU11+dZzzHN32+jGH2jDNXRs4U+yekUuOanX8K4rVgXTfWk7f0vdf3XuLPsu9v2d3vT7IDaNrdu73afduyTR4AAAAAAAAAAAAAAAAAAAAAAAAAOS4mxerMFTXSml/wBmrv4W+JX9qXt65uR0j3TezrW7bmvz7NXOa0eRGTPJ3RTzaStJOo2vE5p6pKiJiIywTMMy3FOonBHrExhwVUzEp2SYvl5nB90nol7H0fudjt2ff4V6PE8nLrLPEsz5jm7ktauAAAAAAAAAAAAAAAAAAAAAAAAAAr7Mal8xqt/vJ/iZUtVVm9XPrK06enFmmPSEKvPsbHLVLoop5tZJbnlh2wLqYJTqL7KNnNVD2UtjMTicvOYWXTf5texF5jop89WRlgAAAAAAAAAAAAAAAAAAAAAAAAK8zqOnNay/iSfrv/cqOtp3b9ceq1aOd6xTPogSexyuqEepBNmuHrTOCMUYJmXrFmWkw9qKvNR8Wl6s2op3qoh53PuxMrOS2Lwpr6AAAAAAAAAAAAAAAAAAAAAAAAAKv4zxDpcSV5Odoy5KUZaVFS5cVs/FtrbyK9r6N+/MRHP+o9lq2XTT8PFVdXp+s+6A8xhbdMjd1I/D1PKWYU79X6Mxw5bRaqfFmFPxfoxw5Z4VTOOPi+lxwpY4NSTl2Lvj6W1lzafn99Hrp7f+Wn5x7vDVW4ps1zPifZbJb1JAAAAAAAAAAAAAAAAAAAAAAAAABUn0mJPPpJuMdUYxu465O8I3jCK3crXe3gcVuYjUXMziMRlL4mdJaxTMzmcOMeYRd9XOupNOWmc1GSezXLjayaWz36p+Wlduxbo3bdMTMx1mYj3/AIhvGurm9HxF7dxPSOf5Tjl9ZlNeJpvDuopx0JNud1pSXW7IabVcV7kxOfC0xft1UcSKo3fPZJ4ewNbHVP0dOFKLtPEVYtKO19MIPecmmmukUmm79CTtbMqic3uniO/8IbU7ap3cWOc+Z7NpjOD6L4jWFw9WvRUcMq2JqOSc661NQqQcvv3TUmlZLSreEtFm3NGZpiccohA/E3YqmYqnM855ssjp1Ked0aNbS5xqUZxqQ/V16UprRWh5PvXc791m4O/pOBqKMfhmYx9eiet634jS1734oic/TquInFVAAAAAAAAAAAAAAAAAAAAAAAAABVH0lSmsyxGi99NJdneSi4R1SS72ldpeRCaiKZ1f3vT25LLpartOzpm1GauePq4WOOjGn2eToirXdSMdKXjG117DSrT1V1c85n0/2FOm3OfvZz8kbB4Gvjca6+CwspqhOE3VehUqtSLuoypVGlU9dSXoTGl093T0ZrqifTx8p7ezrtU1xTjPLwsPiHD4zEZB9cwXPwuLhodbD2cHW5e+jddpr7rW0l2X4LroqpirFXOHtOcZh6YPOqeO4epZlT0xxGA1OrTbSThp/SKDv92cO1G/eoX6MzVRuVTT2kznm0vCeZzxXEs63MqzpfXoxoKrs4UuYpaUvurtLbyREbRq/wA9qjxj9Z/pL7Po/wCLer8xMfSP7XaSKDAAAAAAAAAAAAAAAAAAAAAAAAABWPF2GlW4veHjNU+bUpwdRq7hH6upvSujm9Nlfa77+jiuDRd1lUV9Ixy88oWK3frsbPpqo6zmM+Oc83PYXK8n/wBx54Pl83VhnTarOU4xxUVednJ3nOVPdu2zjs7vad+9TazHL+EFNW9Vz55Z5dSnkuauUZurlWKqaXUT1vB1r6bzt0V1pb77K+63xM8WMT1Yj7vydBxXxjUy/FwlWw/Nwta2itRklKM7XdOUZbN2u07q69jPO3aiuOvNtNWHIYrCUamPxGYRjWw2Drxp1KtKbjB1qsW5N8uLau5Wst0neTt0XJf1NVccKjn2zHf0j+XNXVnp09/k2/BVDVXoVoQUIVcTCrpXcp1U0rexoi6qK6tREz0iYj6dlnszTZ0HCmfvTTM/XMrkJxWwAAAAAAAAAAAAAAAAAAAAAAAAAVRxpKX+pMS4PTKM6MoS66akKVNxl7pJP3EBfuza1c1x2mPaFv0NiLugptz3ifeULjXN9PC9PMcJh6PMq4mhLEVWmqlGvRaUU2rN9qOi97Wl0eosliaa8c+WOSrXaKrdU0zHOH3P+L3RqYGdDDUquDzOlVq1aUYrmTqScebf7t+0r3W9pXe2yYppiqa5xju0mrCJo/QE8XN0cDQqOdHDSlrlCN+zG73nbtWb7MeivZMibuoqvzu05iJ5f9qvy7Q8Zqmrr0/WXHZpmc8xzZUaScMPBvTHfs0k29Tu3bq7K73l6dnDo0Vubtf4u0ePSP3dei0dWouxRH/kLP4dq2r4WClDQqtKKjvrvqhZeSWleN/i4yxfp3KaZnnNUfsnNZp6ouV1RGIimf391oEwrYAAAAAAAAAAAAAAAAAAAAAAAAAKp4lpOWd4iaa3qNeH2eyvkVbV3M36/muuzqop09FPp783P4iWIp4DFUaVOlOGMp6JwrOahGdtPOWlXctNl1X2Yvu379BtGizTu3M8umPZzbR2dOpriu3MRPfLkcFw5iqWJp1FWjGVJ9l/nJWV7uNttnd7eZ2Xtr2LlM0zRMx+Thj7P3avxVx7tzm+XVcZi9eIrVGtrQpxjCKtsvG/ocNraPCzNFMb0955/Tph02/s9bjnXcmfliP5TsryiFGm1Sg1q3bd237Wzl1GruX5zclLafTWNNTNNv8AmXR5W5QrU3stM4y2W7akmrv3HjbvzTMRHl4amimuKp8x+y2i2KSAAAAAAAAAAAAAAAAAAAAAAAAACrM72zauv4tT8TKfq+V6uPWVz0XOxRPpCBc8Yl1sZBtBEMM7iZYw98LvVivFpfEzRzqiHld/DMraLqowAAAAAAAAAAAAAAAAAAAAAAAAAK540wjhnUpfdqpTXtslJeqv7yr7UtTRfmrtK17IuxXY3e8Of1bkbE80s+tmwJgY6u0azJjk23DuHdTN6UV+2pP+WO7+XxOrRW5uX6Y9c/RwbQuRbsVT+X1WiXBTQAAAAAAAAAAAAAAAAAAAAAAAAAQ80yyliMPoqq66praUX4pnjf09u9Tu1w99PqLlirety1mG4QwkHdxnO37yTt6RsmclvZemonOM/N13NramvlE4+UOWzvhXEQx0uRTlOk94tON4r9hpu+xGanZtym5PDjMf7yTOk2raqtxxasVd/X1Z5FwpXnjIvEQcKUWnJScbz/4JJ7ebNtLs25VXE3IxEfq11m1bVNuYtTmqf09XRYvgzCzlePMp+UGnH0knb3Ehd2VYrnMZj5Iu1tjUURicVfP+sJ+S5FRw13DVKUtnOdm7eCstke+m0VvT53es95c2q1t3UzG/0jtDaHW4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//Z"
+        },
+        {
+            "id": 2,
+            "name": "Sprite",
+            "description": "Sprite 330ml",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 5,
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 3,
+            "name": "Water",
+            "description": "Dorna 0.5L",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4.5,
+            "image": "https://www.nestlepurelife.com/pk/sites/g/files/xknfdk411/files/500ml_0_0.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Sparkling water",
+            "description": "Dorna 0.5L",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4.5,
+            "image": "https://www.alfatah.pk/cdn/shop/products/1205844-1.webp?v=1679483537"
+        },
+        {
+            "id": 5,
+            "name": "Fuzetea",
+            "description": "Fuzetea 0.5L Peach or Lemon",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 5,
+            "image": "https://www.theconvenienceshop.com/wp-content/uploads/2020/05/5449000236623.jpg"
+        }
+    ],
+    "sauces": [
+        {
+            "id": 0,
+            "name": "BBQ",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/premium-photo/ketchup-wooden-bowl-isolated-white-background_88281-3597.jpg?w=740"
+        },
+        {
+            "id": 1,
+            "name": "Pizza",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/premium-photo/bowl-with-ketchup_770606-3631.jpg?w=740"
+        },
+        {
+            "id": 2,
+            "name": "Salsa",
+            "description": "",
+            "ingredients": [],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/free-photo/bowl-fresh-salsa-dip-isolated_2829-14504.jpg?w=740&t=st=1693046980~exp=1693047580~hmac=f30b707291833c3446b874045dc38d8175dadaec83a2a3e1322913a88b97db8c"
+        },
+        {
+            "id": 3,
+            "name": "Sweet Chilli",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/premium-photo/bowl-with-ketchup_770606-3631.jpg?w=740"
+        },
+        {
+            "id": 4,
+            "name": "Spicy TABASCO",
+            "description": "",
+            "ingredients": [],
+            "spicy": true,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/premium-photo/sweet-sour-sauce-isolated-white_88281-3100.jpg?w=740"
+        },
+        {
+            "id": 5,
+            "name": "Mayonnaise",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/free-photo/greek-yogurt-wooden-bowl-isolated-white-background_123827-22632.jpg?w=740&t=st=1693047191~exp=1693047791~hmac=bb5855a3054574e58db3357fd245b7b6d7fec7b864300b5ad8e1a345a1995a26"
+        },
+        {
+            "id": 6,
+            "name": "Ketchup",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/premium-photo/ketchup-wooden-bowl-isolated-white-background_88281-3597.jpg?w=740"
+        },
+        {
+            "id": 7,
+            "name": "Garlic sauce",
+            "description": "",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 4,
+            "image": "https://img.freepik.com/free-photo/hummus_144627-19541.jpg?w=740&t=st=1693047240~exp=1693047840~hmac=f2a9d69f08aef5b550d973005fc250d193eeb485d7e51eabd4b31c05ad89771a"
+        }
+    ],
+    "sides": [
+        {
+            "id": 0,
+            "name": "Wedges",
+            "description": "Baked potatoes, slightly spicy",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 6,
+            "image": "https://img.freepik.com/free-photo/wiener-schnitzel-with-fried-potatoes-isolated-white-background_123827-23132.jpg?w=740&t=st=1693044989~exp=1693045589~hmac=e04c94e07b6ae3a83b7bd340b5275a9bff309b9880d623d54ea06371064f5b4f"
+        },
+        {
+            "id": 1,
+            "name": "Onion rings",
+            "description": "Fried onion rings",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": true,
+            "price": 6,
+            "image": "https://img.freepik.com/free-photo/onion-rings-fries-white_144627-16398.jpg?w=740&t=st=1693044758~exp=1693045358~hmac=8a5d42235eab75b770efe0b7bfcf450fbdfe876995ef975c13bf1da998b7837c"
+        },
+        {
+            "id": 2,
+            "name": "Coleslaw",
+            "description": "Cabbage salad, carrots and dressing",
+            "ingredients": [],
+            "spicy": false,
+            "vegetarian": false,
+            "price": 10,
+            "image": "https://img.freepik.com/premium-photo/fresh-sprouts_772702-5697.jpg?w=740"
+        }
+    ]
+}

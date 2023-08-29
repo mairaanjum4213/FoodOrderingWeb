@@ -1,0 +1,28 @@
+nav{
+    border-bottom: 1px solid #ccc !important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color:white !important;
+
+}
+
+.logo{
+    color:#ee0847;
+}
+
+.navbar-brand{
+    font-size:40px;
+}  
+
+.icon{
+    color: #ee0847;
+    font-size:24px;
+}
+
+.nav-link{
+    color:black !important;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color:#ee0847 !important;
+}
