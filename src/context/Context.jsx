@@ -18,6 +18,7 @@ export const Context = (props) => {
       if (exitem) {
         // Update the cart by increasing the count of the existing dish
         setCartItem((prev) =>
+        //The map() function is used to create a new array by looping through each item in the previous cart state.
           prev.map((item) =>
             item.id === dish.id ? { ...item, count: item.count + 1 } : item
           )
