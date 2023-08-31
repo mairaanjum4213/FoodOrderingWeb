@@ -26,6 +26,7 @@ export const Cart = () => {
       }
       return item;
     })
+    //filter() function to remove any null items from the arra
     const filtercart = updatedcart.filter((item)=>item!==null);
     setCartItem(filtercart)
 
